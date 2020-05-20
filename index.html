@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice-Roller</title>
 </head>
+
 <body>
     <div>
         <h1>My Dice Roller</h1>
 
-        
+
         <div id="roll-container">
             <label for="rolls"></label>
-        <input type="text" id="rolls" name="rolls" required
-        minlength="1" maxlength="3" size="5">
+            <input type="text" id="rolls" name="rolls" required minlength="1" maxlength="3" size="5">
             <button id="roll-button">Roll</button><br>
+            
         </div>
-        
+
         <div id="show-all-container">
-            <h2>The sum of rolls is</h2>
+            <h2>The sum of rolls are: <span id="sum"></span></h2>
             <button id="show-button">Show all rolls</button>
         </div>
 
-        <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ol id="list">
+
         </ol>
-    </div>    
+    </div>
+
     <script src="main.js"></script>
 </body>
+
 </html>
